@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: relay-graphs
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   render:
