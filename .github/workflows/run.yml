@@ -1,0 +1,46 @@
+name: Refresh Graphs
+
+on:
+  schedule:
+    - cron: "53 12 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/render_graphs.py"
+      - ".github/workflows/run.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: relay-graphs
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install matplotlib
+
+      - name: Render graphs
+        run: python scripts/graphs.py
+
+      - name: Commit if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"          git add charts README.md
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "[bot] Refreshing relay graphs."
+            git push
+          fi
+
