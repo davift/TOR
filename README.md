@@ -7,7 +7,7 @@ Monitoring of my TOR Nodes (Relays)
 | [dftwiki](https://metrics.torproject.org/rs.html#details/BC4736C28F92AA35EF188E84503BFF81F100C325) | 🟢 running | Fast, Running, Stable, Valid | 81.0 Mbit/s | 5,300 | United States of America |
 | [dftwiki](https://metrics.torproject.org/rs.html#details/EA11D1FE98637CC0AE1CB3CA2F2638696C6156C8) | 🟢 running | Fast, Running, Stable, Valid | 81.1 Mbit/s | 4,200 | United States of America |
 
-_Last updated: 2026-07-31 15:11 UTC_
+_Last updated: 2026-08-01 14:17 UTC_
 <!-- RELAY-STATS:END -->
 
 ## Family Overview
