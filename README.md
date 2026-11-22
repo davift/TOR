@@ -4,10 +4,10 @@ Monitoring of my TOR Nodes (Relays)
 <!-- RELAY-STATS:START -->
 | Relay | Status | Flags | Advertised BW | Consensus weight | Country |
 | --- | --- | --- | --- | --- | --- |
-| [dftwiki](https://metrics.torproject.org/rs.html#details/BC4736C28F92AA35EF188E84503BFF81F100C325) | 🟢 running | Fast, Running, Stable, Valid | 16.3 Mbit/s | 350 | Brazil |
-| [dftwiki](https://metrics.torproject.org/rs.html#details/EA11D1FE98637CC0AE1CB3CA2F2638696C6156C8) | 🟢 running | Fast, Running, Stable, Valid | 63.7 Mbit/s | 3,200 | United States of America |
+| [dftwiki](https://metrics.torproject.org/rs.html#details/BC4736C28F92AA35EF188E84503BFF81F100C325) | 🟢 running | Fast, Running, Stable, Valid | 16.5 Mbit/s | 310 | Brazil |
+| [dftwiki](https://metrics.torproject.org/rs.html#details/EA11D1FE98637CC0AE1CB3CA2F2638696C6156C8) | 🟢 running | Fast, Running, Stable, Valid | 63.7 Mbit/s | 4,500 | United States of America |
 
-_Last updated: 2026-11-21 19:50 UTC_
+_Last updated: 2026-11-22 19:59 UTC_
 <!-- RELAY-STATS:END -->
 
 ## Family Overview
